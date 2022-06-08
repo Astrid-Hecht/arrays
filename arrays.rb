@@ -1,6 +1,6 @@
 #Declaring arrays
 str = ["hello", "these", "are", "words"]
-int = [ 4, 5, 6, 7]
+inte = [ 4, 5, 6, 7]
 flo = [3.14, 42.5, 1.01, 35.6457]
 boo = [true,true,false,true]
 
@@ -13,7 +13,7 @@ p str.push("strings")
 puts "\n"
 
 #calling push again on a different array
-p int.push [1,2,3]
+p inte.push(1,2,3)
 puts "\n"
 
 #calling length to return length, calling pop to remove an element, and recalling length to show it decreases
@@ -42,3 +42,13 @@ puts str[0]
 puts "\n"
 p "calling last element"
 puts str[str.length-1]
+puts "\n"
+puts "\n"
+
+
+#New method sort: sorts the array
+p "Before"
+p inte
+puts "\n"
+p "After"
+p inte.sort
