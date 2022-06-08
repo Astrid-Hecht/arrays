@@ -30,3 +30,15 @@ puts "\n"
 
 #Calling unshift to add element at position 0 in the array
 p boo.unshift(false)
+
+puts "\n"
+puts "\n"
+
+#Index position
+puts str
+puts "\n"
+p "calling first element in array str"
+puts str[0]
+puts "\n"
+p "calling last element"
+puts str[str.length-1]
